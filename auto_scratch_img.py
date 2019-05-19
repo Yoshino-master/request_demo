@@ -1,10 +1,4 @@
-'''
-Created on 2019年5月19日
-
-@author: jinglingzhiyu
-'''
 import re, pickle, requests, os, time
-#from frame_of_wing.other_tools.reptile import getHTMLText
 
 def getHTMLText(url, timeout=50):
     try:
